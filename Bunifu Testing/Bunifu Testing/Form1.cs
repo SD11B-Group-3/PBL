@@ -68,5 +68,90 @@ namespace Bunifu_Testing
             indicator.Top = ((Control)sender).Top;
             bunifuPages1.SetPage("About");
         }
+
+        private void bunifuLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void indicator_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void bunifuPages1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Dashboardpage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuShadowPanel2_ControlAdded(object sender, ControlEventArgs e)
+        {
+
+        }
+
+        private void bunifuFormDock1_FormDragging(object sender, Bunifu.UI.WinForms.BunifuFormDock.FormDraggingEventArgs e)
+        {
+
+        }
+
+        private void bunifuShadowPanel3_ControlAdded(object sender, ControlEventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuPictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuLabel5_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
