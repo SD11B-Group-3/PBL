@@ -848,7 +848,7 @@ namespace Bunifu_Testing
             this.bunifuPictureBox3.BorderRadius = 18;
             this.bunifuPictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox3.Image")));
             this.bunifuPictureBox3.IsCircle = true;
-            this.bunifuPictureBox3.Location = new System.Drawing.Point(24, 37);
+            this.bunifuPictureBox3.Location = new System.Drawing.Point(24, 27);
             this.bunifuPictureBox3.Name = "bunifuPictureBox3";
             this.bunifuPictureBox3.Size = new System.Drawing.Size(37, 37);
             this.bunifuPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -867,10 +867,10 @@ namespace Bunifu_Testing
             this.bunifuLabel6.Location = new System.Drawing.Point(24, 75);
             this.bunifuLabel6.Name = "bunifuLabel6";
             this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel6.Size = new System.Drawing.Size(382, 128);
+            this.bunifuLabel6.Size = new System.Drawing.Size(382, 148);
             this.bunifuLabel6.TabIndex = 4;
-            this.bunifuLabel6.Text = "- Make vaccine-related data easily accessible to people\r\n - Encourage people to g" +
-    "et vaccinated\r\n- Emphasize that getting vaccinated makes a difference\r\n";
+            this.bunifuLabel6.Text = "Dana Guillarte\r\nKean Genota\r\nDaniel Gastador\r\nGuillermo Loquillano\r\nMiguel Baes\r\n" +
+    "Austin Samuel\r\n";
             this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel6.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -884,9 +884,9 @@ namespace Bunifu_Testing
             this.bunifuLabel7.Location = new System.Drawing.Point(67, 30);
             this.bunifuLabel7.Name = "bunifuLabel7";
             this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel7.Size = new System.Drawing.Size(62, 34);
+            this.bunifuLabel7.Size = new System.Drawing.Size(126, 34);
             this.bunifuLabel7.TabIndex = 3;
-            this.bunifuLabel7.Text = "Goals";
+            this.bunifuLabel7.Text = "Developers";
             this.bunifuLabel7.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel7.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
