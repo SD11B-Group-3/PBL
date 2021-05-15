@@ -198,5 +198,10 @@ namespace Bunifu_Testing
         {
 
         }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
