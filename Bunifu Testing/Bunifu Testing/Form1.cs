@@ -153,5 +153,50 @@ namespace Bunifu_Testing
         {
 
         }
+
+        private void bunifuShadowPanel7_ControlAdded(object sender, ControlEventArgs e)
+        {
+
+        }
+
+        private void bunifuShadowPanel5_ControlAdded(object sender, ControlEventArgs e)
+        {
+
+        }
+
+        private void bunifuPictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCircleProgress1_ProgressChanged(object sender, Bunifu.UI.WinForms.BunifuCircleProgress.ProgressChangedEventArgs e)
+        {
+
+        }
+
+        private void bunifuProgressBar2_ProgressChanged(object sender, Bunifu.UI.WinForms.BunifuProgressBar.ProgressChangedEventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuShadowPanel10_ControlAdded(object sender, ControlEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
