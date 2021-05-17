@@ -158,3 +158,12 @@ C:\Users\acer\Documents\GitHub\PBL\Bunifu Testing\Bunifu Testing\obj\Debug\Bunif
 C:\Users\acer\Documents\GitHub\PBL\Bunifu Testing\Bunifu Testing\obj\Debug\Bunifu Testing.csproj.CopyComplete
 C:\Users\acer\Documents\GitHub\PBL\Bunifu Testing\Bunifu Testing\obj\Debug\Bunifu Testing.exe
 C:\Users\acer\Documents\GitHub\PBL\Bunifu Testing\Bunifu Testing\obj\Debug\Bunifu Testing.pdb
+C:\Users\acer\Documents\GitHub\PBL\Bunifu Testing\Bunifu Testing\bin\Debug\LiveCharts.dll
+C:\Users\acer\Documents\GitHub\PBL\Bunifu Testing\Bunifu Testing\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\acer\Documents\GitHub\PBL\Bunifu Testing\Bunifu Testing\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\acer\Documents\GitHub\PBL\Bunifu Testing\Bunifu Testing\bin\Debug\LiveCharts.pdb
+C:\Users\acer\Documents\GitHub\PBL\Bunifu Testing\Bunifu Testing\bin\Debug\LiveCharts.xml
+C:\Users\acer\Documents\GitHub\PBL\Bunifu Testing\Bunifu Testing\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\acer\Documents\GitHub\PBL\Bunifu Testing\Bunifu Testing\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\acer\Documents\GitHub\PBL\Bunifu Testing\Bunifu Testing\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\acer\Documents\GitHub\PBL\Bunifu Testing\Bunifu Testing\bin\Debug\LiveCharts.Wpf.xml
