@@ -45,8 +45,10 @@ namespace Bunifu_Testing
             this.bunifuButton2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.bunifuImageButton3 = new Bunifu.UI.WinForms.BunifuImageButton();
             this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
             this.Dashboardpage = new System.Windows.Forms.TabPage();
+            this.bunifuDatePicker2 = new Bunifu.UI.WinForms.BunifuDatePicker();
             this.bunifuLabel8 = new Bunifu.UI.WinForms.BunifuLabel();
             this.label10 = new System.Windows.Forms.Label();
             this.bunifuShadowPanel8 = new Bunifu.UI.WinForms.BunifuShadowPanel();
@@ -101,11 +103,14 @@ namespace Bunifu_Testing
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.bunifuLabel9 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuFormDock1 = new Bunifu.UI.WinForms.BunifuFormDock();
             this.bunifuBarChart1 = new Bunifu.Charts.WinForms.ChartTypes.BunifuBarChart(this.components);
             this.bunifuShadowPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
+            this.panel2.SuspendLayout();
             this.bunifuPages1.SuspendLayout();
             this.Dashboardpage.SuspendLayout();
             this.bunifuShadowPanel8.SuspendLayout();
@@ -122,6 +127,7 @@ namespace Bunifu_Testing
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox2)).BeginInit();
             this.bunifuShadowPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
+            this.tabPage8.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuShadowPanel1
@@ -547,12 +553,48 @@ namespace Bunifu_Testing
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.bunifuImageButton3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(206, 131);
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // bunifuImageButton3
+            // 
+            this.bunifuImageButton3.ActiveImage = null;
+            this.bunifuImageButton3.AllowAnimations = true;
+            this.bunifuImageButton3.AllowBuffering = true;
+            this.bunifuImageButton3.AllowToggling = false;
+            this.bunifuImageButton3.AllowZooming = true;
+            this.bunifuImageButton3.AllowZoomingOnFocus = true;
+            this.bunifuImageButton3.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton3.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.bunifuImageButton3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.ErrorImage")));
+            this.bunifuImageButton3.FadeWhenInactive = false;
+            this.bunifuImageButton3.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
+            this.bunifuImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.Image")));
+            this.bunifuImageButton3.ImageActive = null;
+            this.bunifuImageButton3.ImageLocation = null;
+            this.bunifuImageButton3.ImageMargin = 40;
+            this.bunifuImageButton3.ImageSize = new System.Drawing.Size(64, 63);
+            this.bunifuImageButton3.ImageZoomSize = new System.Drawing.Size(104, 103);
+            this.bunifuImageButton3.InitialImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.InitialImage")));
+            this.bunifuImageButton3.Location = new System.Drawing.Point(49, 11);
+            this.bunifuImageButton3.Name = "bunifuImageButton3";
+            this.bunifuImageButton3.Rotation = 0;
+            this.bunifuImageButton3.ShowActiveImage = true;
+            this.bunifuImageButton3.ShowCursorChanges = true;
+            this.bunifuImageButton3.ShowImageBorders = true;
+            this.bunifuImageButton3.ShowSizeMarkers = false;
+            this.bunifuImageButton3.Size = new System.Drawing.Size(104, 103);
+            this.bunifuImageButton3.TabIndex = 0;
+            this.bunifuImageButton3.ToolTipText = "";
+            this.bunifuImageButton3.WaitOnLoad = false;
+            this.bunifuImageButton3.Zoom = 40;
+            this.bunifuImageButton3.ZoomSpeed = 10;
+            this.bunifuImageButton3.Click += new System.EventHandler(this.bunifuImageButton3_Click);
             // 
             // bunifuPages1
             // 
@@ -568,13 +610,14 @@ namespace Bunifu_Testing
             this.bunifuPages1.Controls.Add(this.tabPage3);
             this.bunifuPages1.Controls.Add(this.tabPage6);
             this.bunifuPages1.Controls.Add(this.tabPage7);
+            this.bunifuPages1.Controls.Add(this.tabPage8);
             this.bunifuPages1.Location = new System.Drawing.Point(219, 1);
             this.bunifuPages1.Multiline = true;
             this.bunifuPages1.Name = "bunifuPages1";
-            this.bunifuPages1.Page = this.tabPage2;
-            this.bunifuPages1.PageIndex = 1;
-            this.bunifuPages1.PageName = "tabPage2";
-            this.bunifuPages1.PageTitle = "Near You";
+            this.bunifuPages1.Page = this.Dashboardpage;
+            this.bunifuPages1.PageIndex = 0;
+            this.bunifuPages1.PageName = "Dashboardpage";
+            this.bunifuPages1.PageTitle = "Dashboard";
             this.bunifuPages1.SelectedIndex = 0;
             this.bunifuPages1.ShowToolTips = true;
             this.bunifuPages1.Size = new System.Drawing.Size(1088, 776);
@@ -601,6 +644,7 @@ namespace Bunifu_Testing
             // Dashboardpage
             // 
             this.Dashboardpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
+            this.Dashboardpage.Controls.Add(this.bunifuDatePicker2);
             this.Dashboardpage.Controls.Add(this.bunifuLabel8);
             this.Dashboardpage.Controls.Add(this.label10);
             this.Dashboardpage.Controls.Add(this.bunifuShadowPanel8);
@@ -616,6 +660,31 @@ namespace Bunifu_Testing
             this.Dashboardpage.TabIndex = 0;
             this.Dashboardpage.Text = "Dashboard";
             this.Dashboardpage.Click += new System.EventHandler(this.Dashboardpage_Click);
+            // 
+            // bunifuDatePicker2
+            // 
+            this.bunifuDatePicker2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuDatePicker2.BorderRadius = 1;
+            this.bunifuDatePicker2.Color = System.Drawing.Color.Silver;
+            this.bunifuDatePicker2.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
+            this.bunifuDatePicker2.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
+            this.bunifuDatePicker2.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker2.DisplayWeekNumbers = false;
+            this.bunifuDatePicker2.DPHeight = 0;
+            this.bunifuDatePicker2.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.bunifuDatePicker2.FillDatePicker = false;
+            this.bunifuDatePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bunifuDatePicker2.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDatePicker2.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker2.Icon")));
+            this.bunifuDatePicker2.IconColor = System.Drawing.Color.Gray;
+            this.bunifuDatePicker2.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
+            this.bunifuDatePicker2.LeftTextMargin = 5;
+            this.bunifuDatePicker2.Location = new System.Drawing.Point(831, 67);
+            this.bunifuDatePicker2.MinimumSize = new System.Drawing.Size(4, 32);
+            this.bunifuDatePicker2.Name = "bunifuDatePicker2";
+            this.bunifuDatePicker2.Size = new System.Drawing.Size(220, 32);
+            this.bunifuDatePicker2.TabIndex = 19;
+            this.bunifuDatePicker2.Value = new System.DateTime(2021, 5, 18, 2, 4, 0, 0);
             // 
             // bunifuLabel8
             // 
@@ -1627,6 +1696,35 @@ namespace Bunifu_Testing
             this.tabPage7.TabIndex = 5;
             this.tabPage7.Text = "City";
             // 
+            // tabPage8
+            // 
+            this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
+            this.tabPage8.Controls.Add(this.bunifuLabel9);
+            this.tabPage8.Location = new System.Drawing.Point(4, 4);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(1080, 750);
+            this.tabPage8.TabIndex = 6;
+            this.tabPage8.Text = "Welcome";
+            // 
+            // bunifuLabel9
+            // 
+            this.bunifuLabel9.AllowParentOverrides = false;
+            this.bunifuLabel9.AutoEllipsis = false;
+            this.bunifuLabel9.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel9.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel9.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel9.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.bunifuLabel9.Location = new System.Drawing.Point(55, 45);
+            this.bunifuLabel9.Name = "bunifuLabel9";
+            this.bunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel9.Size = new System.Drawing.Size(210, 65);
+            this.bunifuLabel9.TabIndex = 19;
+            this.bunifuLabel9.Text = "Welcome";
+            this.bunifuLabel9.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel9.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.bunifuLabel9.Click += new System.EventHandler(this.bunifuLabel9_Click);
+            // 
             // bunifuFormDock1
             // 
             this.bunifuFormDock1.AllowFormDragging = true;
@@ -1697,6 +1795,7 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.bunifuPages1.ResumeLayout(false);
             this.Dashboardpage.ResumeLayout(false);
             this.Dashboardpage.PerformLayout();
@@ -1722,6 +1821,8 @@ namespace Bunifu_Testing
             this.bunifuShadowPanel3.ResumeLayout(false);
             this.bunifuShadowPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
+            this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1794,6 +1895,10 @@ namespace Bunifu_Testing
         private System.Windows.Forms.TabPage tabPage7;
         private Bunifu.Charts.WinForms.ChartTypes.BunifuBarChart bunifuBarChart1;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel8;
+        private Bunifu.UI.WinForms.BunifuDatePicker bunifuDatePicker2;
+        private Bunifu.UI.WinForms.BunifuImageButton bunifuImageButton3;
+        private System.Windows.Forms.TabPage tabPage8;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel9;
     }
 }
 

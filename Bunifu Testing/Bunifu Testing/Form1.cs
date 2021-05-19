@@ -242,5 +242,19 @@ namespace Bunifu_Testing
         {
  
         }
+
+        private void bunifuImageButton3_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SetPage("Welcome");
+        }
+
+        private void bunifuLabel9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuDatePicker1_ValueChanged(object sender, EventArgs e)
+        {
+                    }
     }
 }
