@@ -27,7 +27,7 @@ namespace Bunifu_Testing
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+       
         }
 
         private void bunifuShadowPanel1_ControlAdded(object sender, ControlEventArgs e)
@@ -198,5 +198,63 @@ namespace Bunifu_Testing
         {
 
         }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuShadowPanel8_ControlAdded(object sender, ControlEventArgs e)
+        {
+
+        }
+
+        private void bunifuShadowPanel6_ControlAdded(object sender, ControlEventArgs e)
+        {
+
+        }
+
+        private void bunifuChartCanvas1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage6_Click(object sender, EventArgs e)
+        {
+       
+
+
+
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel3_Enter(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void panel3_MouseHover(object sender, EventArgs e)
+        {
+ 
+        }
+
+        private void bunifuImageButton3_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SetPage("Welcome");
+        }
+
+        private void bunifuLabel9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuDatePicker1_ValueChanged(object sender, EventArgs e)
+        {
+                    }
     }
 }
