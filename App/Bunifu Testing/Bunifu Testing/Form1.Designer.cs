@@ -262,8 +262,6 @@ namespace Bunifu_Testing
             this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuFormDock1 = new Bunifu.UI.WinForms.BunifuFormDock();
-            this.label11 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.bunifuShadowPanel1.SuspendLayout();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.indicator)).BeginInit();
@@ -1215,8 +1213,6 @@ namespace Bunifu_Testing
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(27)))));
-            this.tabPage2.Controls.Add(this.button1);
-            this.tabPage2.Controls.Add(this.label11);
             this.tabPage2.Controls.Add(this.linkLabel1);
             this.tabPage2.Controls.Add(this.webBrowser1);
             this.tabPage2.Controls.Add(this.bunifuButton10);
@@ -5507,24 +5503,6 @@ namespace Bunifu_Testing
             this.bunifuFormDock1.TitleBarOptions.UseBackColorOnDockingIndicators = false;
             this.bunifuFormDock1.FormDragging += new System.EventHandler<Bunifu.UI.WinForms.BunifuFormDock.FormDraggingEventArgs>(this.bunifuFormDock1_FormDragging);
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(680, 62);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 13);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "label11";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(494, 63);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 12);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5811,8 +5789,6 @@ namespace Bunifu_Testing
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel18;
         private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox6;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel19;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button button1;
     }
 }
 
