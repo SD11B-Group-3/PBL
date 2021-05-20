@@ -269,7 +269,27 @@ namespace Bunifu_Testing
 
         private void bunifuDropdown1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            bunifuPages2.SetPage("Pfizer");
+            int j = bunifuDropdown1.SelectedIndex;
+
+            if (j == 0)
+            {
+                bunifuPages2.SetPage("Sinovac");
+            }
+
+            else if (j == 1)
+            {
+                bunifuPages2.SetPage("Astrazeneca");
+            }
+
+            else if (j == 2)
+            {
+                bunifuPages2.SetPage("Sputnik V");
+            }
+
+            else
+            {
+                bunifuPages2.SetPage("Pfizer");
+            }
         }
 
         private void bunifuLabel10_Click(object sender, EventArgs e)
@@ -280,6 +300,83 @@ namespace Bunifu_Testing
         private void label11_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void bunifuDropdown4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int j = bunifuDropdown1.SelectedIndex;
+
+            if (j == 0)
+            {
+                bunifuPages2.SetPage("Sinovac");
+            }
+
+            else if (j == 1)
+            {
+                bunifuPages2.SetPage("Astrazeneca");
+            }
+
+            else if (j == 2)
+            {
+                bunifuPages2.SetPage("Sputnik V");
+            }
+
+            else
+            {
+                bunifuPages2.SetPage("Pfizer");
+            }
+
+        }
+
+        private void bunifuDropdown2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int j = bunifuDropdown1.SelectedIndex;
+ 
+            if (j == 1)
+            {
+                bunifuPages2.SetPage("Astrazeneca");
+                
+            }
+
+            else if (j == 0)
+            {
+                bunifuPages2.SetPage("Sinovac");
+            }
+
+            else if (j == 2)
+            {
+                bunifuPages2.SetPage("Sputnik V");
+            }
+
+            else
+            {
+                bunifuPages2.SetPage("Pfizer");
+            }
+        }
+
+        private void bunifuDropdown3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int j = bunifuDropdown1.SelectedIndex;
+
+            if (j == 0)
+            {
+                bunifuPages2.SetPage("Sinovac");
+            }
+
+            else if (j == 1)
+            {
+                bunifuPages2.SetPage("Astrazeneca");
+            }
+
+            else if (j == 2)
+            {
+                bunifuPages2.SetPage("Sputnik V");
+            }
+
+            else
+            {
+                bunifuPages2.SetPage("Pfizer");
+            }
         }
     }
 
