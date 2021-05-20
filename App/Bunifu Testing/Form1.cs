@@ -256,5 +256,34 @@ namespace Bunifu_Testing
         private void bunifuDatePicker1_ValueChanged(object sender, EventArgs e)
         {
                     }
+
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SetPage("City");
+        }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SetPage("Region");
+        }
+
+        private void bunifuDropdown1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            bunifuPages2.SetPage("Pfizer");
+        }
+
+        private void bunifuLabel10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
-}
+
+
+    }
+
+
